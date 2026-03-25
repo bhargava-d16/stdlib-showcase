@@ -1,0 +1,33 @@
+.dataBox {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dataBox h3 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 6px;
+}
+
+.dataBox .row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.dataBox .key {
+  color: #9ca3af;
+}
+
+.dataBox .val {
+  color: #111;
+  font-family: ui-monospace, monospace;
+}

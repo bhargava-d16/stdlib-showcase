@@ -1,0 +1,44 @@
+{
+  "name": "stdlib-showcase",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stdlib/ndarray": "^0.3.3",
+    "@stdlib/ndarray-base-expand-dimensions": "^0.3.1",
+    "@stdlib/ndarray-base-remove-singleton-dimensions": "^0.2.3",
+    "@stdlib/ndarray-broadcast-array": "^0.2.3",
+    "@stdlib/ndarray-ctor": "^0.3.1",
+    "@stdlib/ndarray-slice-dimension": "^0.2.3",
+    "@stdlib/random-base-randn": "^0.2.2",
+    "@stdlib/random-shuffle": "^0.2.3",
+    "@stdlib/stats-base-cumax": "^0.3.1",
+    "@stdlib/stats-base-cumin": "^0.3.1",
+    "@stdlib/stats-base-mean": "^0.2.2",
+    "@stdlib/stats-base-minabs": "^0.2.2",
+    "@stdlib/stats-base-range": "^0.2.2",
+    "@stdlib/stats-base-stdev": "^0.2.2",
+    "@stdlib/stats-base-variance": "^0.2.2",
+    "chart.js": "^4.5.1",
+    "react": "^19.2.4",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "vite": "^8.0.1"
+  }
+}
