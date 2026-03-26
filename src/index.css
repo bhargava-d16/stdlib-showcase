@@ -74,11 +74,24 @@ body {
   align-items: flex-start;
 }
 
+@media (max-width: 900px) {
+  .main-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
 .left-column {
   flex: 0 0 450px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .left-column {
+    flex: 1;
+  }
 }
 
 .right-column {

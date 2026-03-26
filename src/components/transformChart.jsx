@@ -116,7 +116,7 @@ export default function TransformChart({ input, output }) {
     <div className="chartBox">
       <div className="comparison">
         <GridPanel nd={input} title="Before" />
-        <div className="arrow">→</div>
+        <div className="arrow">↓</div>
         <GridPanel nd={output} title="After" />
       </div>
     </div>

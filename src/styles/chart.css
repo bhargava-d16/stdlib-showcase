@@ -9,6 +9,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 600px) {
+  .chartBox {
+    min-height: 300px;
+  }
+}
+
 .chartBox.col {
   flex-direction: column;
 }
